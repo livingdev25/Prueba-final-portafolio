@@ -1,8 +1,8 @@
 .navbar {
-  background-image: url("../images/imagen-header-portafolio.jpg");
+  background-color: bisque;
   background-size: cover;
 
-  height: 200px;
+  height: 50px;
 }
 
 .navbar a {
@@ -33,20 +33,34 @@
     1px 1px 0px black;
   font-style: oblique;
   color: aliceblue;
-  font-size: 40px;
+  font-size: 80px;
 }
 
 .header p {
   font-size: 20px;
   padding-left: 40px;
-  margin-bottom: 70px;
+  padding-bottom: 30px;
   color: aliceblue;
+  margin-bottom: 0;
 }
 
 #Hero-Section {
   background-image: url("../images/imagen-perfil-cv.png");
+  object-fit: cover;
   background-color: rgb(250, 239, 224);
   background-repeat: no-repeat;
   background-size: 400px;
   padding-top: 100px;
+}
+
+.main-header {
+  height: 200px;
+  padding: 0px;
+  font-size: 30px;
+  color: whitesmoke;
+  background-image: url("../images/imagen-header-portafolio.jpg");
+  background-size: cover;
+  background-position: center;
+
+  margin: auto;
 }
