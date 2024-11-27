@@ -45,11 +45,12 @@
 
 #Hero-Section {
   background-image: url("../images/imagen-perfil-cv.png");
-  object-fit: cover;
+  object-fit: contain;
   background-color: rgb(250, 239, 224);
   background-repeat: no-repeat;
   background-size: 400px;
   padding-top: 100px;
+  display: flex;
 }
 
 .main-header {
@@ -60,6 +61,6 @@
   background-image: url("../images/imagen-header-portafolio.jpg");
   background-size: cover;
   background-position: center;
-
+  display: flex;
   margin: auto;
 }
