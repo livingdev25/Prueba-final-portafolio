@@ -1,10 +1,10 @@
 .navbar {
   background-image: url("../images/imagen-header-portafolio.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  
+
   height: 200px;
-  position: relative;
+
 }
 
 .navbar a {
@@ -42,6 +42,15 @@
   font-size: 20px;
   padding-left: 40px;
   margin-bottom: 70px;
-
   color: aliceblue;
 }
+
+#Hero-Section {
+    background-image: url("../images/imagen-perfil-cv.png");
+    background-color: rgb(250, 239, 224);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    padding-top: 100px;
+       
+    
+  }
