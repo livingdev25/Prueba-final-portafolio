@@ -279,7 +279,56 @@
       </section>
     </main>
 
-    <footer class="d-flex flex-column justify-content-center align-items-center bg-transparent text-#707070 py-0">
+    <section
+      class="container text-center my-5"
+      class="row row-cols-1 row-cols-md-3 g-4"
+    >
+      <h2 class="display-3 fw-bold my-4">Conversemos</h2>
+      
+      <form>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="apellido"
+            placeholder="Ingresa tu apellido"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="correo"
+            placeholder="Ingresa tu correo electrónico"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            id="mensaje"
+            rows="4"
+            placeholder="Escribe tu mensaje aquí"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+      </form>
+    </section>
+
+    <footer
+      class="d-flex flex-column justify-content-center align-items-center bg-transparent text-#707070 py-0"
+    >
       <div class="text-center" style="width: 278px; height: 21px">
         <p
           style="
