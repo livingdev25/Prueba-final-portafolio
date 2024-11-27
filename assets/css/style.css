@@ -1,35 +1,35 @@
 .navbar {
-    background-image: url('../images/imagen-header-portafolio.jpg'); /* Reemplaza esta URL */
-    background-size: cover; /* Asegura que la imagen cubra todo el navbar */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita repeticiones */
-    height: 200px; /* Altura personalizada del navbar */
+    background-image: url('../images/imagen-header-portafolio.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 150px; 
     position: relative;
   }
 
-  /* Asegura que el texto y los enlaces sean visibles */
+  
   .navbar a {
-    color: white !important;
+    color: white;
     font-weight: bold;
   }
 
   .navbar-brand {
-    color: white !important;
+    color: white 
     font-size: 24px;
   }
 
-  /* Texto opcional sobre el fondo */
+  
   .navbar-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Capa semitransparente para mayor contraste */
+    background-color: rgba(0, 0, 0, 0.5); 
   }
 
-  /* Contenido del navbar */
+  
   .navbar-content {
     position: relative;
-    z-index: 1; /* Asegura que los enlaces estén por encima de la capa */
+    z-index: 1; 
   }
