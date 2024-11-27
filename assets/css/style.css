@@ -1,0 +1,11 @@
+.header {
+    height: 150px;
+    padding: 0px;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url("../img/logo3.png");
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin: auto;
+  }
